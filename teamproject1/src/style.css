@@ -1,0 +1,207 @@
+HTML{
+   background-color: #4370B7;
+}
+
+a{
+    color: #121212;
+    text-decoration-thickness: 1px;
+ }
+
+ button:hover{
+   color: #ffffff;
+ }
+ 
+ h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    margin: 30px auto;
+    /* padding-bottom: 10px; */
+ }
+ 
+ h3{
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 25px;
+    padding: 10px 0px;
+    font-weight: 300;
+ }
+
+ img{
+   width: 60px;
+   height: 60px;
+ }
+
+ input[type=text]{
+   border: none;
+   border-bottom: 1px solid #121212;
+   outline: none;
+   width: 100px;
+   text-align: center;
+   padding: 0px 5px;
+ }
+
+ label {
+   color: #121212;
+   font-size: 16px;
+}
+
+ select{
+   text-align: center;
+   margin: 0 5px;
+ }
+
+ #createData{
+   margin: 0 auto;
+   font-size: 20px;
+ }
+
+ #createData:hover{
+   color: #ffffff;
+ }
+
+ #filter{
+   width: 120px;
+   margin: 0 5px;
+ }
+
+ #filter::placeholder{
+   color: #121212;
+ }
+ 
+ #root{
+  background-color: #4370B7;
+ }
+ .card{
+    width: 500px;
+    height: 120px;
+    margin: 10px auto;
+    background-color: #96B5E5;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 7px 6px rgba(0, 0, 0, 0.1);
+ }
+
+ .cardCountry{
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    left: 30px;
+    width: 90px;
+    height: 90px;
+ }
+ 
+ .cardCity{
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    font-size: 35px;
+    font-weight: 300;
+    top: 15px;
+    left: 130px;
+ }
+ 
+ .cardTime{
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    font-size: 19px;
+    font-weight: 300;
+    top: 61px;
+    left: 130px;
+ }
+ 
+ .cardTemperature{
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    font-size: 37px;
+    font-weight: 300;
+    top: 29px;
+    left: 300px;
+ }
+ 
+ .cardIcon{
+    display: inline-block;
+    position: absolute;
+    top: 27px;
+    left: 400px;
+ }
+
+ .createList, .editList{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0px auto;
+   font-size: 25px;
+   width: 500px;
+ }
+ 
+ .favoriteBtn{
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    font-size: 40px;
+    top: 0px;
+    left: 440px;
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+ }
+
+ .favoriteTitle{
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+ }
+
+ .friendsTitle{
+   width: 500px;
+   justify-content: flex-start;
+   align-items: center;
+   margin: 0 auto;
+   
+ }
+
+ #goBack{
+   position: fixed;
+   top: 20px;
+   left: 20px;
+   border: none;
+   font-size: 30px;
+   font-weight: 400;
+ }
+
+ .modal-body{
+   font-size: 17px;
+   text-align: left;
+ }
+
+ .more:hover{
+   color: #ffffff;
+ }
+
+ .name{
+   position: absolute;
+   top: 15px;
+   left: 20px;
+   background-color: #e2edf7;
+   border-radius: 100px;
+   font-size: 20px;
+   font-weight: 300;
+   text-align: center;
+   width: 90px;
+   height: 90px;
+   justify-content: center;
+   padding: 10px 0;
+   align-items: center;
+ }
+
+ .sort-options{
+   margin:  0 auto;
+   width: 500px;
+ }
+
+ .firstName, .lastName{
+   background-color: transparent;
+ }
